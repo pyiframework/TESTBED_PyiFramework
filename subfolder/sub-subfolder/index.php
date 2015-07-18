@@ -9,7 +9,7 @@ if (!defined('PYI_REL_DIR')) {
 
 ?>
 
-<?php $path = $root; $path .= 'inc/doc.php'; include $path;?>
+<?php include PYI_ROOT . 'inc/doc.php'; ?>
 
 <!--
 Pyi Framework Default - sample sub-subfolder page
@@ -25,9 +25,9 @@ Twitter: @KevinPybus
 
 <!-- ADD ANY ADDITIONAL CSS OR JS REQUIRED FOR THIS PAGE HERE -->
 
-<?php $path = $root; $path .= 'inc/header.php'; include $path;?>
+<?php include PYI_ROOT . 'inc/header.php'; ?>
 
-<?php $path = $root; $path .= 'inc/top-nav.php'; include $path;?>
+<?php include PYI_ROOT . 'inc/top-nav.php'; ?>
 
 <!-- START PAGE CONTENT -->
 
@@ -39,6 +39,6 @@ Twitter: @KevinPybus
 
 <!-- END PAGE CONTENT -->
 
-<?php $path = $root; $path .= 'inc/footer.php'; include $path;?>
+<?php include PYI_ROOT . 'inc/footer.php'; ?>
 
-<?php $path = $root; $path .= 'inc/footer-scripts.php'; include $path;?>
+<?php include PYI_ROOT . 'inc/footer-scripts.php'; ?>
